@@ -1,0 +1,127 @@
+.body {
+  margin: auto;
+  padding: 100px;
+  background-color: #dfe8ff;
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url("images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  padding-top: 35px;
+  padding-bottom: 0px;
+}
+
+h5 {
+  padding-top: 16px;
+  padding-bottom: 0px;
+}
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    line-height: 1.5;
+}
+
+.gris {
+  color: #9397af;
+
+}
+
+.card {
+  margin: auto;
+  width: 405px;
+  height: 770px;
+}
+
+.hero {
+  background-image: url("images/illustration-hero.svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px 20px 0px 0px;
+  height: 220px;
+  margin-top: 70px;
+
+}
+
+.white_lie {
+  background-color: #ffffff;
+  height: 430px;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 15px 12px #c7d1f7;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.sum_box {
+  background-color: hsl(225, 100%, 98%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 75px;
+  border-radius: 10px;
+  padding: 8px 12px 6px 12px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.grid-item-img {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13px;
+}
+
+.grid-item-center {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.grid-item-right {
+  text-align: center;
+  font-size: 14px;
+  margin: auto;
+
+}
+
+.payment_button {
+  background-color: #372ae0;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 25px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 12px #c7d1f7;
+}
+
+.blanc {
+  color: white;
+}
+
+
+.change:hover {
+  text-decoration: underline;
+}
